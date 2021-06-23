@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>src.HelloWorld</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>printOdd</servlet-name>
+        <servlet-class>assignment_1.printOdd</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SubjectRegistration</servlet-name>
+        <servlet-class>assignment_1.SubjectRegistration</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>test</servlet-name>
+        <servlet-class>assignment_1.test</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>printOdd</servlet-name>
+        <url-pattern>/printOdd</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SubjectRegistration</servlet-name>
+        <url-pattern>/SubjectRegistration</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>test</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+      30
+    </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>SubjectRegistration.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

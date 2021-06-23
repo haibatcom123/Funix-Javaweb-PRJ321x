@@ -1,0 +1,36 @@
+﻿1 : phân biệt web động với web tĩnh
+>>Web động là trang web nhận REQUEST và trả RESPONE với các dữ liệu từ database
+so với web tĩnh là các trang web với dữ liệu đính cứng trên các trang hmtl
+2 : quá trình chạy 1 web cần cái gì
+>>Web khi chạy cần sourcecode tải dữ liệu từ database lên. Upload nó lên VPS và đăng kí
+tên miền cho người dùng truy cập
+3 : có những scope nào
+>>Có 4 scope: PageScope, RequestScope, SessionScope, ApplicationScope.
+>>Source: https://stackjava.com/jsp-servlet/cac-scope-trong-servlet-application-request-session-va-page-scope.html
+4 : servlet là gì
+>>Là những Java Class nhận các Request từ phía Client, xử lí và trả về các Respone.
+Đồng thời được sử dụng để hiện thị các nội dụng động trên Web server.
+Trong MVC, servlet như một controller liên kết với Model và View
+5:  jsp là gì
+>>Được sử dụng để hiển thị thông tin, nội dung động và nhận các object được tạo ra bởi
+servlet
+6:  vòng đời của 1 servlet
+>>Được tạo ra bởi phương thức init() - được gọi bởi phương thức service() để xử lí yêu
+cầu từ client - ngoài ra còn có doGet() và doPost() để xử
+lí yêu cầu từ client - khi thực hiện xong tác vụ, servlet sẽ bị gọi và
+hủy bởi phương thức destroy() 
+7 : có những object có sẵn gì ở jsp
+>>Request, respone, out, session, application, config, pageContext, page, exception
+>>Source: http://vietjack.com/jsp/doi_tuong_an_trong_jsp.jsp
+8 : File XML có những gì
+>>web.xml sẽ có list các servet bao gồm servlet name và đường dẫn, servlet class, url 
+pattern, welcome file và thời gian lưu session
+9 : bắt đầu chạy thì server sẽ chạy vô đâu
+10 : e code thử sum bằng scripting element
+11 : e code If else ( x = 3, nếu x >5 in ra hạ else x < 5 in ra Xuân )
+bằng jstl
+câu 12 : Phương thức get vs post khác nhau sao
+>>Phương thức get dùng để lấy dữ liệu từ server, lúc đó trên thanh url sẽ hiển thị toàn bộ
+những dữ liệu mình đã lấy. Post dùng để thực hiện một hành động đến server(đăng nhập, set
+avatar, vv). Khi lấy dữ liệu nên sử dụng GET do truy xuất và xử lí nhanh hơn, còn khi tạo
+dữ liệu chứa các thông tin cần bảo mật nên sử dụng POST.

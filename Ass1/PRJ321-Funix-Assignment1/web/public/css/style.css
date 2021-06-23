@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Dec 17, 2018, 9:23:04 PM
+    Author     : demonslight998
+*/
+
+/*.container-tilte {
+  font-family: 'Charm', cursive;
+  font-size: 4rem;
+}
+
+.date {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+}*/
+
+body {
+  padding: 5% 10%;
+}
+
+.justLike {
+  padding: 5% 10%;
+  background-color: #4FC3F7;
+  text-align: center;
+}
+
+.special {
+  color: red;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.form-display {
+  margin: 4rem auto;
+}
+
+.container getForm {
+  color: #F48FB1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+}

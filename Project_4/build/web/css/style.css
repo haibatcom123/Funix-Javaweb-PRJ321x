@@ -1,0 +1,28 @@
+
+.backg{
+    background-color: #b95d41;
+}
+img{
+    margin-top: 160px;
+    border-radius: 50%;
+}
+.article .nav-link{
+    text-align:center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.title{
+    color: #b95d41;
+    font-weight: bold;
+    font-size: 17px;
+}
+.title{
+    width: 70%;
+}
+.shortdes{
+    width: 70%;
+}
+.time{
+    color: #b95d41;
+    float: right;
+}
